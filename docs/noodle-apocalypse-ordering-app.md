@@ -30,7 +30,7 @@ This document will guide GitHub Copilot (or your IDE’s assistant) with a serie
 #### Bash Commands (Repo)
 
 ```bash
-mkdir -p anime-ramen-shop/{backend,frontend,db,test}
+mkdir -p {backend,frontend,db,test}
 ```
 
 ---
