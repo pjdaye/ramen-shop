@@ -19,13 +19,12 @@ Don't proceed with the next activity until all of these steps are completed.
 
 Based on the example ramen-shop app in the docs/noodle-apocalypse-ordering-app.md file and use ramen-shop as the name for the app. Let's setup codespace the ramen-shop frontend React framework.
 
-1. Make the ramen-shop/frontend directory.
-2. Create the react app in the ramen-shop/frontend directory.
-3. Install stable versions of React framework and modules based on docs/noodle-apocalypse-ordering-app.md.
-4. Install stable bootstrap in the ramen-shop/frontend directory.
-5. Import bootstrap css in the src/index.js file.
-6. Install the stable react-router-dom in the ramen-shop/frontend directory.
-7. Don't change .gitignore file
+1. Create the react app in the frontend directory.
+2. Install stable versions of React framework and modules based on docs/noodle-apocalypse-ordering-app.md.
+3. Install stable bootstrap in the ramen-shop/frontend directory.
+4. Import bootstrap css in the src/index.js file.
+5. Install the stable react-router-dom in the ramen-shop/frontend directory.
+6. Don't change .gitignore file
 
 Don't proceed with the next activity until all of these steps are completed.
 

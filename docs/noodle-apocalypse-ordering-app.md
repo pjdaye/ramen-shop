@@ -24,7 +24,7 @@ This document will guide GitHub Copilot (or your IDE’s assistant) with a serie
 
 #### Instructions (Repo)
 
-- **Create the main project folder:** `anime-ramen-shop`
+- **Create the main project folder:** `ramen-shop`
 - **Inside it, create subdirectories:** `backend`, `frontend`, `db`, and `test`.
 
 #### Bash Commands (Repo)
@@ -49,13 +49,13 @@ mkdir -p {backend,frontend,db,test}
 
 ```bash
 # Navigate to the frontend directory and create the React app
-npx create-react-app anime-ramen-shop/frontend
+npx create-react-app frontend
 
 # Install Bootstrap into the frontend app
-npm install bootstrap --prefix anime-ramen-shop/frontend
+npm install bootstrap --prefix frontend
 
 # Append the Bootstrap import to the React app's index file
-echo "import 'bootstrap/dist/css/bootstrap.min.css';" >> anime-ramen-shop/frontend/src/index.js
+echo "import 'bootstrap/dist/css/bootstrap.min.css';" >> frontend/src/index.js
 ```
 
 ---
