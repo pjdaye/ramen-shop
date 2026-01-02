@@ -40,8 +40,7 @@ anime-ramen-shop/
 
 ### Prerequisites
 
-- [Node.js](https://nodejs.org/) (v12.x or higher)
-- [npm](https://www.npmjs.com/)
+- [Bun](https://bun.sh/) (latest version)
 - Git
 
 ### Steps to Set Up the Project
@@ -59,7 +58,7 @@ anime-ramen-shop/
 
     ```bash
     cd frontend
-    npm install
+    bun install
     ```
 
 3. **Setup the Backend:**
@@ -68,13 +67,13 @@ anime-ramen-shop/
 
     ```bash
     cd ../backend
-    npm install
+    bun install
     ```
 
     The backend is built with Express and uses Sequelize with SQLite. To start the server, run:
 
     ```bash
-    npm run dev
+    bun run dev
     ```
 
 4. **Database Initialization:**
@@ -93,7 +92,7 @@ anime-ramen-shop/
     Tests are located in the /test directory. You can run your tests using your chosen testing framework (e.g., Jest, Mocha/Chai). For example, if using Jest:
 
     ```bash
-    npm test
+    bun test
     ```
 
 ## Usage
